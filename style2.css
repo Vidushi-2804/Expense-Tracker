@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Light blue background */
+    background-color: #1d5061; /* Light blue background */
+    background: linear-gradient(to bottom, rgb(1, 65, 57), rgb(55, 40, 94));
+    background-size: 100% 100%; /* Adjust the size of the waves */
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 30px;
+    font-family: Arial, sans-serif; /* Use appropriate font */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #040853; /* Adjust color as needed */
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #261414;
+    border-radius: 5px; /* Semi-transparent white background */
+    background-color: rgba(253, 255, 255, 0.9); /* Slightly less transparent */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #080202; /* Adjust color as needed */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Add margin to create space between button and paragraph */
+    border: none;
+    border-radius: 5px;
+    background-color: #052445;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover, change as needed */
+}
+
+p {
+    text-align: center;
+    margin-top: 10px; /* Add margin to create space between button and paragraph */
+    color: #333;
+}
+
+p a {
+    color: #7a0f31; /* Blue color for the link, change as needed */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
